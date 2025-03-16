@@ -10,10 +10,9 @@
     <br>
 </h1>
 
-
 # Fork Variant:
 
-As far as I know, when you remove certain amount of licenses, Steam hit you with a cooldown and makes you wait 10 minutes. This script is aware of that and waits for it. While testing I realized that there are two codes for success `[1,8]` and `[84]` for cooldown. Also I tried to apply xPaw's recommendation to utilize `setTimeout` and `formData`. I am not an experienced coder in JavaScript so this script is vibe coded by Claude.
+As far as I know, when you remove certain amount of licenses, Steam hit you with a cooldown and makes you wait 10 minutes. This script is aware of that and waits for it. While testing I realized that there are two codes for success `[1,8]` and for cooldown `[84]`. Also I tried to apply xPaw's recommendation to utilize `setTimeout` and `formData`. I am not an experienced coder in JavaScript so this script is vibe coded by Claude.
 
 # Description:
 
@@ -36,14 +35,13 @@ This Script will remove any "Free" games from your Steam Library by removing the
 # Disclaimer:
 
 - This script is provided as is. I am not responsible for any damage that may occur to your account. Use at your own risk.
-- Don't change the script, especially the interval time, if you do, your browser's access to your profile settings page may be blocked by Steam for a few seconds or minutes.
-
 
 # Changelog:
 
- - 1.0 - Initial Release
- - 1.1 - Added a delay between each request to avoid being blocked by Steam.
+ - 1.0 - initial fork
 
 # Credits:
 
 - SteamDB - https://steamdb.info/
+- guiohm - pull request to main repo
+- IroN404 - original
