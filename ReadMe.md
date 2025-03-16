@@ -6,13 +6,14 @@
     <a href="https://ibb.co/D55WXk5"><img src="https://i.ibb.co/LnnRw6n/Sans-titre-modified.png" alt="Sans-titre-modified" border="0"></a>
     <br>
     <br>
-    Version: 1.1
+    Forked Version: 1.0
     <br>
 </h1>
 
 
+# Fork Variant:
 
-
+As far as I know, when you remove certain amount of licenses, Steam hit you with a cooldown and makes you wait 10 minutes. This script is aware of that and waits for it. While testing I realized that there are two codes for success `[1,8]` and `[84]` for cooldown. Also I tried to apply xPaw's recommendation to utilize `setTimeout` and `formData`. I am not an experienced coder in JavaScript so this script is vibe coded by Claude.
 
 # Description:
 
